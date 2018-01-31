@@ -8,13 +8,14 @@ import static org.junit.jupiter.api.Assertions.*;
 class HWFunctionsimplTest {
     @Test
     void add() {
-        //PARTITON1 POSITIVE NUMBERS
+        //PARTITON1 NO NUMBERS
         String test = "";
         HWFunctions myFunctions = new HWFunctionsimpl();
         int result = myFunctions.Add(test);
         assertEquals(0,result);
 
-        //PARTITION 2 NEGATIVE
+        //PARTITION2 1 NUMBER
+        String test2 = "5";
 
         //PARTITION 3
     }

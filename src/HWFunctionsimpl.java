@@ -3,6 +3,10 @@
  */
 public class HWFunctionsimpl implements HWFunctions {
     public int Add(String numbers){
-        return 0;
+        int sum=0;
+        if (numbers.equals("")){
+            return sum;
+        }
+        return sum;
     }
 }
