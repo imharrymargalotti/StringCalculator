@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1399ce75-d2e8-4d1f-ad78-2e32dc32940a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HWFunctionsimpl.java" afterPath="$PROJECT_DIR$/src/HWFunctionsimpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/HWFunctionsimplTest.java" afterPath="$PROJECT_DIR$/test/HWFunctionsimplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HWFunctionsimpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HWFunctionsimpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/HWFunctionsimpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -42,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HWFunctionsimplTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HWFunctionsimplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/HWFunctionsimplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="65" column="44" lean-forward="false" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+            <state relative-caret-position="324">
+              <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -78,8 +77,8 @@
         <option value="$PROJECT_DIR$/src/Funtions.java" />
         <option value="$PROJECT_DIR$/test/HWFunctionsimplTest.groovy" />
         <option value="$PROJECT_DIR$/src/HWFunctions.java" />
-        <option value="$PROJECT_DIR$/test/HWFunctionsimplTest.java" />
         <option value="$PROJECT_DIR$/src/HWFunctionsimpl.java" />
+        <option value="$PROJECT_DIR$/test/HWFunctionsimplTest.java" />
       </list>
     </option>
   </component>
@@ -453,12 +452,6 @@
     <history-entry file="HWFunctionsimplTest - 2018.01.31 at 01h 13m 32s.xml">
       <configuration name="HWFunctionsimplTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HWFunctionsimplTest_add - 2018.01.31 at 00h 41m 29s.xml">
-      <configuration name="HWFunctionsimplTest.add" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HWFunctionsimplTest_add - 2018.01.31 at 01h 04m 56s.xml">
-      <configuration name="HWFunctionsimplTest.add" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HWFunctionsimplTest_add - 2018.01.31 at 01h 10m 17s.xml">
       <configuration name="HWFunctionsimplTest.add" configurationId="JUnit" />
     </history-entry>
@@ -469,6 +462,12 @@
       <configuration name="HWFunctionsimplTest.add" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HWFunctionsimplTest_add - 2018.01.31 at 01h 17m 00s.xml">
+      <configuration name="HWFunctionsimplTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HWFunctionsimplTest_add - 2018.01.31 at 01h 37m 10s.xml">
+      <configuration name="HWFunctionsimplTest.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HWFunctionsimplTest_add - 2018.01.31 at 01h 37m 47s.xml">
       <configuration name="HWFunctionsimplTest.add" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -569,18 +568,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/HWFunctionsimplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="65" column="44" lean-forward="false" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HWFunctionsimpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/HWFunctionsimplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
           <folding />
         </state>
       </provider>

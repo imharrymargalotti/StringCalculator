@@ -75,6 +75,19 @@ class HWFunctionsimplTest {
         String test3G = "100,-50";
         int result3G = myFunctions.Add(test3G);
         assertEquals(50,result3G);
+
+        //--------------PARTITION4 3 or more NUMBERS--------------------------------------
+        String test4A = "1,2,3,4,5,6,7,8,9,10";
+        int result4A = myFunctions.Add(test4A);
+        assertEquals(55,result4A);
+
+        String test4B = "-1,0,1";
+        int result4B = myFunctions.Add(test4B);
+        assertEquals(0,result4B);
+
+        String test4C = "-1000,50,5000,50";
+        int result4C = myFunctions.Add(test4C);
+        assertEquals(4100,result4C);
     }
 
 }
