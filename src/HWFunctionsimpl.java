@@ -12,7 +12,7 @@ public class HWFunctionsimpl implements HWFunctions {
         else if (numbers.indexOf(',')==-1){
             sum = Integer.parseInt(numbers);
         }
-        //------------2 or more numbers------------------------------
+        //------------more than 2 numbers------------------------------
         else{
             String[] values = numbers.split(",");
             for (int i = 0; i<values.length; i++){
