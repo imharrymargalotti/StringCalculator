@@ -43,7 +43,7 @@ class HWFunctionsimplTest {
         //--------------PARTITION3 2 NUMBERS--------------------------------------
         //test a: 2 small positive numbers
         String test3A = "5,5";
-        int result3A = myFunctions.Add(test2A);
+        int result3A = myFunctions.Add(test3A);
         assertEquals(10,result3A);
 
         //test b: boundary value of 0 and 1
@@ -54,7 +54,7 @@ class HWFunctionsimplTest {
         //test c: boundary value of 0 and -1
         String test3C = "0,-1";
         int result3C = myFunctions.Add(test3C);
-        assertEquals(1,result3C);
+        assertEquals(-1,result3C);
 
         //test d: small negative numbers
         String test3D = "-5,-5";
@@ -63,7 +63,7 @@ class HWFunctionsimplTest {
 
         //test e: large positive numbers
         String test3E = "10000,10000";
-        int result3E = myFunctions.Add(test2E);
+        int result3E = myFunctions.Add(test3E);
         assertEquals(20000,result3E);
 
         //test f: large negative numbers
