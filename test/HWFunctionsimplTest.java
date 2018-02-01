@@ -88,6 +88,14 @@ class HWFunctionsimplTest {
         String test4C = "-1000,50,5000,50";
         int result4C = myFunctions.Add(test4C);
         assertEquals(4100,result4C);
+
+
+        //Make a test for class to get a merge conflict
+        String test5C = "-1000,-50,-5000,-50";
+        int result5C = myFunctions.Add(test5C);
+        assertEquals(-6100,result5C);
     }
+
+
 
 }
