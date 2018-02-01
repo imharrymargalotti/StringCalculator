@@ -88,6 +88,21 @@ class HWFunctionsimplTest {
         String test4C = "-1000,50,5000,50";
         int result4C = myFunctions.Add(test4C);
         assertEquals(4100,result4C);
+
+
+        //--------------PARTITION5 Group Testing--------------------------------------
+
+        String test5A = ",, ";
+        int result5A = myFunctions.Add(test5A);
+        assertEquals(0,result5A);
+
+        String test5B = "2,0,,1,";
+        int result5B = myFunctions.Add(test5A);
+        assertEquals(3,result5A);
+
+        String test5C = "33,00,,0";
+        int result5C = myFunctions.Add(test5C);
+        assertEquals(0,result5C);
     }
 
 }
